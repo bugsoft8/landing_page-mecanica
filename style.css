@@ -1,0 +1,22 @@
+/*---------- Estrutura Base ----------*/
+
+body {
+    background-color: var(--backgraund);
+    height: 4846px;
+    margin: 0 auto;
+    font-family: var(--font-family);
+}
+
+
+.main {
+    max-width: 1194px;
+    margin: 0 auto;
+}
+/* ----------------------------------- */
+    
+/*---------- Trabalhe apartir daqui ----------*/
+
+/*
+    IMPORTANTE
+        Para qualquer modificação desejada no "body" e/ou na "main", tente manter as classes ja existentes e crei uma classe nova para as novas modificações
+ */
