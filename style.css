@@ -5,6 +5,8 @@ body {
     height: 4846px;
     margin: 0 auto;
     font-family: var(--font-family);
+    overflow-x:hidden;
+    
 }
 
 
@@ -15,6 +17,57 @@ body {
 /* ----------------------------------- */
     
 /*---------- Trabalhe apartir daqui ----------*/
+.porque_titulo{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 260px;
+    text-align: center;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+    justify-content: center;
+    position: sticky;
+    top: 10;
+    width: 100vw;
+    z-index: 1000;
+    margin-left: -35px;
+    
+}
+
+h3{
+    font-weight: normal;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin: 15px;
+    
+
+}
+
+.container_items{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.container_items_2{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+
+.troca_oleo{
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    
+}
+
 
 /*
     IMPORTANTE
