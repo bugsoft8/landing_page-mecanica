@@ -29,3 +29,32 @@ body {
     font-size: var(--font-size-1);
     font-weight: var(--font-weight-bold);
  }
+ .frame_imagem {
+    max-width: 582px;
+    max-height: 582px;
+ }
+ .frame_btn {
+    background-color: var(--primary-black);
+    width: 204px;
+    height: 55px;
+}
+.btn_a {
+    text-decoration: none;
+    color: var(--primary-white);
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-bold);
+ }
+.sobre_frame {
+    display: flex;
+    height: 584px;
+    width: 1193px;
+    justify-content: space-between;
+}
+.frame_imagem {
+    margin-top: 122px;
+    justify-content: flex-left;
+} 
+.frame_texto {
+    margin-top: 55px;
+    justify-content: flex-rigth;
+}
