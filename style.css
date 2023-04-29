@@ -72,10 +72,6 @@ h3{
 
 
 /*
-IMPORTANTE
-Para qualquer modificação desejada no "body" e/ou na "main", tente manter as classes já existentes e crie uma classe nova para as novas modificações
-*/
-
 /*Header principal*/
 .header {
   display: flex;
@@ -224,3 +220,168 @@ Para qualquer modificação desejada no "body" e/ou na "main", tente manter as c
     flex-direction: column;
     justify-content: space-between;
 } 
+/*ESCOLHER - CARLOS ALEXANDRE - INICIO*/
+
+.porque {
+        display: flex;
+        justify-content: center;
+        border: 0px;
+        left: 0px;
+        height: 828px;
+        width: 100%;
+        position: absolute;
+}
+/*LEGENDA*/
+.leg_por {
+    color: black;
+    font-size: var(--font-size-1);
+    font-weight: bold; 
+    margin: 0px;
+}
+
+.sub_sub {
+    position: absolute;
+    top: 80px;
+}
+
+/*PAGINA EM SI/*/
+.motivos_escolhas {
+    position: absolute;
+    display: flex;
+    top: 160px;
+    width: 1122px;
+    height: 600px;
+    justify-content: center;
+}
+.colum1 {
+    display: flex;
+    width: 530px;
+    height: 110px;
+    margin: 35px 10px;
+    justify-content: space-between;
+}
+
+.colum2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 1122px;
+    height: 500px;
+}
+
+.sub_imagem {
+    width: 125px;
+    height: 100px;
+}
+
+.p_justo {
+    display: flex;
+}
+
+.vai_que {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100px;
+    padding-left: 10px;
+}
+.sub_leg {
+    margin: 2px;
+    height: 30px;
+    width: 400px;
+}
+
+.descricao {
+    margin: 0;
+    position: relative;
+    top: 3px;
+    width: 395px;
+}
+
+ /*CARLOS ALEXANDRE - INICIO TIMES*/
+
+ .time {
+    top: 828px;
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    left: 0px;
+    background-color:var(--primary-black);
+    height: 828px;
+    width: 100%;
+    position: absolute;
+ }
+ /*TITULO*/
+ .subtitulo {
+    position: absolute;
+    top: 115px;
+    margin: 0px;
+ }
+
+
+.leg {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    color: white;
+    font-size: var(--font-size-1);
+    font-weight: bold;  
+}
+/*CAIXAS*/
+.equipe {
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    margin: 0px 30px;
+    width: 350px;
+    height: 455px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.fotomaria {
+    display: flex;
+    width: 350px;
+    height: 455px;
+}
+
+.subox1,.subox2,.subox3{
+    position: absolute;
+    width: 270px;
+    height: 180px;
+    bottom: 24px;
+    margin: 38px;
+    background-color:var(--primary-black);
+}
+.maria {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    top: 10px;
+    justify-content: center;
+}
+
+.marialegenda {
+    display: flex;
+    font: 25px;
+    color: white;
+    justify-content: center;
+}
+
+.redesociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.insta {
+    margin-right: 25px;
+}
+.zap {
+    margin-left: 25px;
+}
+/*FIM TIMES - CARLOS ALEXANDRE*/
