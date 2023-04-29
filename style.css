@@ -20,9 +20,89 @@ body {
     IMPORTANTE
         Para qualquer modificação desejada no "body" e/ou na "main", tente manter as classes ja existentes e crei uma classe nova para as novas modificações
  */
- /*CARLOS ALEXANDRE - INICIO*/
+/*ESCOLHER - CARLOS ALEXANDRE - INICIO*/
+
+.porque {
+        display: flex;
+        justify-content: center;
+        border: 0px;
+        left: 0px;
+        height: 828px;
+        width: 100%;
+        position: absolute;
+}
+/*LEGENDA*/
+.leg_por {
+    color: black;
+    font-size: var(--font-size-1);
+    font-weight: bold; 
+    margin: 0px;
+}
+
+.sub_sub {
+    position: absolute;
+    top: 80px;
+}
+
+/*PAGINA EM SI/*/
+.motivos_escolhas {
+    position: absolute;
+    display: flex;
+    top: 160px;
+    width: 1122px;
+    height: 600px;
+    justify-content: center;
+}
+.colum1, {
+    display: flex;
+    width: 530px;
+    height: 110px;
+    margin: 35px 10px;
+    justify-content: space-between;
+}
+
+.colum2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 1122px;
+    height: 500px;
+}
+
+.sub_imagem {
+    width: 125px;
+    height: 100px;
+}
+
+.p_justo {
+    display: flex;
+}
+
+.vai_que {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100px;
+    padding-left: 10px;
+}
+.sub_leg {
+    margin: 2px;
+    height: 30px;
+    width: 400px;
+}
+
+.descricao {
+    margin: 0;
+    position: relative;
+    top: 3px;
+    width: 395px;
+}
+
+ /*CARLOS ALEXANDRE - INICIO TIMES*/
 
  .time {
+    top: 828px;
     display: flex;
     justify-content: center;
     border: 0px;
@@ -104,3 +184,4 @@ body {
 .zap {
     margin-left: 25px;
 }
+/*FIM TIMES - CARLOS ALEXANDRE*/
