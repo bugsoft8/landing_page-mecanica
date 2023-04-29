@@ -2,7 +2,7 @@
 
 body {
     background-color: var(--backgraund);
-    height: 4846px;
+    /* height: 4846px; */
     margin: 0 auto;
     font-family: var(--font-family);
     /* overflow-x:hidden; */
@@ -222,6 +222,8 @@ h3{
         height: 828px;
         width: 100%;
         position: absolute;
+        /* margin-top: 828px; */
+
 }
 /*LEGENDA*/
 .leg_por {
@@ -302,6 +304,7 @@ h3{
     height: 828px;
     width: 100%;
     position: absolute;
+    margin-top: 828px;
  }
  /*TITULO*/
  .subtitulo {
@@ -376,3 +379,167 @@ h3{
     margin-left: 25px;
 }
 /*FIM TIMES - CARLOS ALEXANDRE*/
+
+
+/* ----------------CONTATO------------------- */
+.contato {
+    height: 673px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    z-index: 2;
+    margin-top: 1628px;
+}
+
+.contato_titulo--co {
+    margin-top: 85px;
+}
+
+.contato_titulo--co > h2 {
+    margin: 0;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-black);
+}
+
+.contato_frame--co {
+    height: 314px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame_social--co {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.social_grupo--co {
+    height: 72px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* .grupo_img--co {
+
+} */
+
+.grupo_img--co > img {
+    height: 72px;
+    width: 72px;
+    border-radius: 10px;
+}
+
+.grupo_texto--co {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto_titulo--co, .texto_paragrafo--co {
+    margin-left: 30px;
+}
+.texto_titulo--co > h3 {
+    margin: 0;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-regular);
+    color: var(--primary-black);
+}
+
+.texto_paragrafo--co > p {
+    margin: 0;
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-regular);
+    color: var(--primary-black);
+}
+
+.frame_mensagem--co {
+    height: 314px;
+    width: 684px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mensagem_campo--co {
+    width: 684px;
+    height: 242px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+/* .mensagem_brn--co {
+} */
+
+.mensagem_brn--co > button {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-bold);
+    width: 204px;
+    height: 56px;
+    border-radius: 5px;
+}
+
+.campo_padrao {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-regular);
+    color: var(--primary-gray);
+    border: 0.7px solid var(--primary-gray);
+    border-radius: 5px;
+}
+
+.campo_pequeno--co {
+    flex-basis: 48%;
+    height: 56px;
+}
+
+.campo_grande--co {
+    flex-basis: 100%;
+    height: 168px;
+}
+
+.mensagem_btn--co {
+    width: 204px;
+    height: 56px;
+    
+}
+
+
+/* ---------------FOOTER-------------------- */
+.footer {
+     height: 95px;
+     background-color: var(--primary-black);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 100px;
+}
+         
+.footer_email--co > a{
+    font-size: var(--font-size-6);
+    color: var(--primary-white);
+    font-weight: var (--font-weight-regular);
+    text-decoration: none;
+    display: flex;
+}
+
+.footer_logo--co > img{
+    width: 145px;
+    height: 70px;
+}
+
+.footer_direitos--co {
+    font-size: var(--font-size-6);
+    color: var(--primary-white);
+    font-weight: var (--font-weight-regular);
+    text-align: center;
+}
+/* ----------------------------------- */
