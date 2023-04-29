@@ -20,3 +20,87 @@ body {
     IMPORTANTE
         Para qualquer modificação desejada no "body" e/ou na "main", tente manter as classes ja existentes e crei uma classe nova para as novas modificações
  */
+ /*CARLOS ALEXANDRE - INICIO*/
+
+ .time {
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    left: 0px;
+    background-color:var(--primary-black);
+    height: 828px;
+    width: 100%;
+    position: absolute;
+ }
+ /*TITULO*/
+ .subtitulo {
+    position: absolute;
+    top: 115px;
+    margin: 0px;
+ }
+
+
+.leg {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    color: white;
+    font-size: var(--font-size-1);
+    font-weight: bold;  
+}
+/*CAIXAS*/
+.equipe {
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    margin: 0px 30px;
+    width: 350px;
+    height: 455px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.fotomaria {
+    display: flex;
+    width: 350px;
+    height: 455px;
+}
+
+.subox1,.subox2,.subox3{
+    position: absolute;
+    width: 270px;
+    height: 180px;
+    bottom: 24px;
+    margin: 38px;
+    background-color:var(--primary-black);
+}
+.maria {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    top: 10px;
+    justify-content: center;
+}
+
+.marialegenda {
+    display: flex;
+    font: 25px;
+    color: white;
+    justify-content: center;
+}
+
+.redesociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.insta {
+    margin-right: 25px;
+}
+.zap {
+    margin-left: 25px;
+}
