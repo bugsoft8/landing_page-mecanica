@@ -23,27 +23,24 @@ body {
 .sobre {
     height: 828px;
 }
- .texto_paragrafo {
+ .texto_paragrafo--so {
+    margin-top: 45px;
      width: 582px;
      font-size: var(--font-size-4);
      text-align: justify;
  }
- .texto_titulo > h2 {
+ .texto_titulo--so > h2 {
+    line-height: 0.85;
     padding: 0;
     margin: 0;
     font-size: var(--font-size-1);
     font-weight: var(--font-weight-bold);
  }
- .texto_titulo {
-    display: flex;
-    height: 50.4px;
-  
- }
- .frame_imagem {
+ .conteudo_imagem--so {
     max-width: 582px;
     max-height: 582px;
  }
- .frame_btn {
+ .frame_btn--so {
     background-color: var(--primary-black);
     border-radius: 5px;
     display: flex;
@@ -52,13 +49,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-.btn_a {
+.btn_a--so {
     text-decoration: none;
     color: var(--primary-white);
     font-size: var(--font-size-btn);
     font-weight: var(--font-weight-bold);
  }
-.sobre_frame {
+.sobre_conteudo--so {
     display: flex;
     position: relative;
     top: 122px;
@@ -66,7 +63,7 @@ body {
     width: 1193px;
     justify-content: space-between;
 }
-.frame_texto {
+.conteudo_frame--so {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
