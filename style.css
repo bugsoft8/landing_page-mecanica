@@ -76,7 +76,7 @@ h3{
 .header {
   display: flex;
   height: 100px;
-  background-color: black;
+  background-color: var(--primary-black);
   justify-content: space-between;
 }
 
@@ -111,10 +111,8 @@ h3{
 
 /*Main da home*/
 
-.home {
-    /* height: 766px;
-    position: absolute; */
-}
+/* .home {
+} */
 .home_main {
     height: 766px;
     background-image: url(components/images/home_/home.svg);
@@ -122,15 +120,9 @@ h3{
   align-items: center;
   background-position: center;
   flex-direction: column;
-  /* position: absolute; */
-  /* z-index: 100; */
-  /* left: 0; */
-  /* width: 100vw;   */
 }
 /*H1 da pagina Home*/
 .home_titulo {
-    /* display: flex; */
-    /* top: 300px; */
     position: absolute;
     top: 300px;
     text-align: center;
@@ -302,7 +294,6 @@ h3{
  /*CARLOS ALEXANDRE - INICIO TIMES*/
 
  .time {
-    top: 828px;
     display: flex;
     justify-content: center;
     border: 0px;
