@@ -1,22 +1,103 @@
 /*---------- Estrutura Base ----------*/
 
 body {
-    background-color: var(--backgraund);
-    height: 4846px;
-    margin: 0 auto;
-    font-family: var(--font-family);
+  background-color: var(--backgraund);
+  margin: 0;
+  font-family: var(--font-family);
 }
-
 
 .main {
-    max-width: 1194px;
-    margin: 0 auto;
+  max-width: 1194px;
+  margin: 0 auto;
 }
+
 /* ----------------------------------- */
-    
-/*---------- Trabalhe apartir daqui ----------*/
+
+/*---------- Trabalhe a partir daqui ----------*/
 
 /*
-    IMPORTANTE
-        Para qualquer modificação desejada no "body" e/ou na "main", tente manter as classes ja existentes e crei uma classe nova para as novas modificações
- */
+IMPORTANTE
+Para qualquer modificação desejada no "body" e/ou na "main", tente manter as classes já existentes e crie uma classe nova para as novas modificações
+*/
+
+/*Header principal*/
+.header {
+  display: flex;
+  height: 100px;
+  background-color: black;
+  justify-content: space-between;
+}
+
+/*logo no header*/
+.header_logo > img {
+  width: 110px;
+  height: 50px;
+  margin: 20px;
+}
+
+/*Pra mexer em todos os componentes*/
+.nav_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  text-align: left;
+}
+
+/*Pra mexer nos textos dos componentes*/
+.ul_li > a {
+  display: flex;
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: var(--font-size-5);
+  line-height: 19px;
+  margin: 20px;
+}
+
+
+/*- Main -*/
+
+/*Main da home*/
+.home_main {
+  height: 766px;
+  display: flex;
+  align-items: center;
+  background-image: url(components/images/home_/home.svg);
+  background-position: center;
+  flex-direction: column;
+  margin-left: -58px;
+}
+/*H1 da pagina Home*/
+.home_titulo {
+  text-align: center;
+  color: var(--primary-white);
+  font-size: 42px;
+  position: flex;
+}
+
+
+/*Paragrafo da pagina home*/
+.home_p {
+  text-align: center;
+  color: var(--primary-gray);
+}
+
+
+/*Botão da pagina home*/
+.home_botao {
+  width: 200px;  
+  padding: 22px 23px;
+  border-radius: 5px;
+  background-color: var(--primary-white);
+  text-align: center;
+  position: absolute;
+  top: 500px;
+}
+/*letras do botao da pagina home*/
+.home_botao > a {
+  text-align: center;
+  text-decoration: none;
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-black);
+}
