@@ -1,9 +1,12 @@
 /*---------- Estrutura Base ----------*/
 
 body {
-  background-color: var(--backgraund);
-  margin: 0;
-  font-family: var(--font-family);
+    background-color: var(--backgraund);
+    height: 4846px;
+    margin: 0 auto;
+    font-family: var(--font-family);
+    /* overflow-x:hidden; */
+    
 }
 
 .main {
@@ -14,6 +17,59 @@ body {
 /* ----------------------------------- */
 
 /*---------- Trabalhe a partir daqui ----------*/
+    
+.servico {
+    height: 828px;
+}
+.servico_titulo{
+    display: flex;
+    background-color: black;
+    height: 260px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+}
+.servico_titulo > h2 {
+    color: var(--primary-white);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+    line-height:170px;
+}
+h3{
+    font-weight: normal;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin: 15px;
+    position: relative;    
+    top: 320px;
+}
+.container_items{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.container_items_2{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+
+.troca_oleo{
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    
+}
+
 
 /*
 IMPORTANTE
@@ -58,21 +114,37 @@ Para qualquer modificação desejada no "body" e/ou na "main", tente manter as c
 /*- Main -*/
 
 /*Main da home*/
+
+.home {
+    /* height: 766px;
+    position: absolute; */
+}
 .home_main {
-  height: 766px;
+    height: 766px;
+    background-image: url(components/images/home_/home.svg);
   display: flex;
   align-items: center;
-  background-image: url(components/images/home_/home.svg);
   background-position: center;
   flex-direction: column;
-  margin-left: -58px;
+  /* position: absolute; */
+  /* z-index: 100; */
+  /* left: 0; */
+  /* width: 100vw;   */
 }
 /*H1 da pagina Home*/
 .home_titulo {
-  text-align: center;
-  color: var(--primary-white);
-  font-size: 42px;
-  position: flex;
+    /* display: flex; */
+    /* top: 300px; */
+    position: absolute;
+    top: 300px;
+    text-align: center;
+}
+
+.home_titulo > h1 {
+    color: var(--primary-white);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+    margin: 0;
 }
 
 
@@ -80,6 +152,8 @@ Para qualquer modificação desejada no "body" e/ou na "main", tente manter as c
 .home_p {
   text-align: center;
   color: var(--primary-gray);
+  position: absolute;
+  top: 400px;
 }
 
 
