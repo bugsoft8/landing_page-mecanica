@@ -23,7 +23,15 @@ body {
 
 
 /* ----------------CONTATO------------------- */
+.contato {
+    height: 673px;
+}
 
+.contato_titulo--co > h2 {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-black);
+}
 
 
 /* ---------------FOOTER-------------------- */
@@ -36,7 +44,7 @@ body {
      padding: 0 100px;
 }
          
-.footer_email > a{
+.footer_email--co > a{
     font-size: var(--font-size-6);
     color: var(--primary-white);
     font-weight: var (--font-weight-regular);
@@ -44,12 +52,12 @@ body {
     display: flex;
 }
 
-.footer_logo > img{
+.footer_logo--co > img{
     width: 145px;
     height: 70px;
 }
 
-.footer_direitos {
+.footer_direitos--co {
     font-size: var(--font-size-6);
     color: var(--primary-white);
     font-weight: var (--font-weight-regular);
