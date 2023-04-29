@@ -101,3 +101,52 @@ Para qualquer modificação desejada no "body" e/ou na "main", tente manter as c
   font-weight: var(--font-weight-bold);
   color: var(--primary-black);
 }
+
+.sobre {
+    height: 828px;
+}
+ .texto_paragrafo--so {
+    margin-top: 45px;
+     width: 582px;
+     font-size: var(--font-size-4);
+     text-align: justify;
+ }
+ .texto_titulo--so > h2 {
+    line-height: 0.85;
+    padding: 0;
+    margin: 0;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-bold);
+ }
+ .conteudo_imagem--so {
+    max-width: 582px;
+    max-height: 582px;
+ }
+ .frame_btn--so {
+    background-color: var(--primary-black);
+    border-radius: 5px;
+    display: flex;
+    width: 204px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+}
+.btn_a--so {
+    text-decoration: none;
+    color: var(--primary-white);
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-bold);
+ }
+.sobre_conteudo--so {
+    display: flex;
+    position: relative;
+    top: 122px;
+    height: 584px;
+    width: 1193px;
+    justify-content: space-between;
+}
+.conteudo_frame--so {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
